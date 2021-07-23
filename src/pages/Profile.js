@@ -1,5 +1,5 @@
 import { Feed, NavBar, RightBar, SideBar } from "../components";
-
+import "./Profile.css";
 export const Profile = () => {
   return (
     <>
