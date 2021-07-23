@@ -1,3 +1,14 @@
+import { Feed, NavBar, RightBar, SideBar } from "../components";
+
 export const Home = () => {
-  return <></>;
+  return (
+    <>
+      <NavBar />
+      <div>
+        <SideBar />
+        <Feed />
+        <RightBar />
+      </div>
+    </>
+  );
 };
